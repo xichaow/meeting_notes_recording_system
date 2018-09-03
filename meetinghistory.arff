@@ -1,0 +1,16 @@
+@relation weather
+
+@attribute Urgency {yes,no}
+@attribute CustomerLevel {high,normal}
+@attribute NewCustomer {new,existing}
+@attribute Difficulty {easy,difficult}
+
+@data
+yes,normal,new,easy
+yes,normal,existing,difficult
+yes,high,existing,difficult
+yes,high,new,difficult
+no,high,existing,easy
+no,high,new,difficult
+no,normal,existing,easy
+no,normal,new,difficult
